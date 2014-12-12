@@ -21,9 +21,9 @@
       "text": "Use an un-triggered factory as an entry field suggesting to users where a page can be improved with additional information."
     },
     {
-      "type": "paragraph",
+      "type": "html",
       "id": "079be98abad601d3",
-      "text": "<h3>Interactions"
+      "text": "<h3>Interactions</h3>"
     },
     {
       "type": "paragraph",
@@ -31,37 +31,37 @@
       "text": "User initiated interactions determine the type of item a factory becomes."
     },
     {
-      "type": "paragraph",
+      "type": "html",
       "id": "8e0ad36ff8c0ab5c",
       "text": "<b>Double-Click</b> to create a normal paragraph and open the Text Editor to provide the text of the paragraph."
     },
     {
-      "type": "paragraph",
+      "type": "html",
       "id": "7a83f9411f33eda3",
       "text": "<b>Drop a Text File</b> to create a normal paragraph containing the text of the file."
     },
     {
-      "type": "paragraph",
+      "type": "html",
       "id": "2206a3efc9e55e03",
       "text": "<b>Drop an Image File</b> to create an image item.  The caption of the item will read \"uploaded image\". Double click the caption to revise it."
     },
     {
-      "type": "paragraph",
+      "type": "html",
       "id": "df48b1a581bf60e0",
       "text": "<b>Drop a .CSV File</b> to create a data item containing the rows and columns of the .csv converted to an array of key-value objects."
     },
     {
-      "type": "paragraph",
+      "type": "html",
       "id": "3c4ca6503db48295",
       "text": "<b>Drop a Weblocation File</b> to create a reference to a federated wiki page on another site. The reference will choose the last wiki page when a reference refers to multiple wiki pages."
     },
     {
-      "type": "paragraph",
+      "type": "html",
       "id": "8663501e2c0be714",
       "text": "<b>Drop a Weblocation</b> from another browser tab to create a reference without first creating a file."
     },
     {
-      "type": "paragraph",
+      "type": "html",
       "id": "472c54a13e18f1ff",
       "text": "Be aware that every file type and every browser on every system will present a somewhat different signature to the factory plugin. When the factory can't make sense of the signature it makes a data item with the caption <b>unexpected item</b> which will hold some identifying information about the dropped content."
     }
@@ -379,6 +379,97 @@
         "text": "Be aware that every file type and every browser on every system will present a somewhat different signature to the factory plugin. When the factory can't make sense of the signature it makes a data item with the caption <b>unexpected item</b> which will hold some identifying information about the dropped content."
       },
       "date": 1346544308596
+    },
+    {
+      "type": "edit",
+      "id": "079be98abad601d3",
+      "item": {
+        "type": "html",
+        "id": "079be98abad601d3",
+        "text": "<h3>Interactions"
+      },
+      "date": 1418314811008
+    },
+    {
+      "type": "edit",
+      "id": "079be98abad601d3",
+      "item": {
+        "type": "html",
+        "id": "079be98abad601d3",
+        "text": "<h3>Interactions</h3>"
+      },
+      "date": 1418314817045
+    },
+    {
+      "type": "edit",
+      "id": "8e0ad36ff8c0ab5c",
+      "item": {
+        "type": "html",
+        "id": "8e0ad36ff8c0ab5c",
+        "text": "<b>Double-Click</b> to create a normal paragraph and open the Text Editor to provide the text of the paragraph."
+      },
+      "date": 1418314819382
+    },
+    {
+      "type": "edit",
+      "id": "7a83f9411f33eda3",
+      "item": {
+        "type": "html",
+        "id": "7a83f9411f33eda3",
+        "text": "<b>Drop a Text File</b> to create a normal paragraph containing the text of the file."
+      },
+      "date": 1418314821990
+    },
+    {
+      "type": "edit",
+      "id": "2206a3efc9e55e03",
+      "item": {
+        "type": "html",
+        "id": "2206a3efc9e55e03",
+        "text": "<b>Drop an Image File</b> to create an image item.  The caption of the item will read \"uploaded image\". Double click the caption to revise it."
+      },
+      "date": 1418314823198
+    },
+    {
+      "type": "edit",
+      "id": "df48b1a581bf60e0",
+      "item": {
+        "type": "html",
+        "id": "df48b1a581bf60e0",
+        "text": "<b>Drop a .CSV File</b> to create a data item containing the rows and columns of the .csv converted to an array of key-value objects."
+      },
+      "date": 1418314824598
+    },
+    {
+      "type": "edit",
+      "id": "3c4ca6503db48295",
+      "item": {
+        "type": "html",
+        "id": "3c4ca6503db48295",
+        "text": "<b>Drop a Weblocation File</b> to create a reference to a federated wiki page on another site. The reference will choose the last wiki page when a reference refers to multiple wiki pages."
+      },
+      "date": 1418314825830
+    },
+    {
+      "type": "edit",
+      "id": "8663501e2c0be714",
+      "item": {
+        "type": "html",
+        "id": "8663501e2c0be714",
+        "text": "<b>Drop a Weblocation</b> from another browser tab to create a reference without first creating a file."
+      },
+      "date": 1418314837685
+    },
+    {
+      "type": "edit",
+      "id": "472c54a13e18f1ff",
+      "item": {
+        "type": "html",
+        "id": "472c54a13e18f1ff",
+        "text": "Be aware that every file type and every browser on every system will present a somewhat different signature to the factory plugin. When the factory can't make sense of the signature it makes a data item with the caption <b>unexpected item</b> which will hold some identifying information about the dropped content."
+      },
+      "date": 1418314851965
     }
-  ]
+  ],
+  "plugin": "factory"
 }
