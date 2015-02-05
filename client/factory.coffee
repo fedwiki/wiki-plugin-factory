@@ -64,6 +64,9 @@ window.plugins.factory =
       readFile = (file) ->
         if file?
           [majorType, minorType] = file.type.split("/")
+          if file.name.toLowerCase().match(/\.csv$/)
+            majorType = 'text'
+            minorType = 'csv'
           reader = new FileReader()
           if majorType == "image"
             reader.onload = (loadEvent) ->
