@@ -1,3 +1,10 @@
+###
+ * Federated Wiki : Factory Plugin
+ *
+ * Licensed under the MIT license.
+ * https://github.com/fedwiki/wiki-plugin-factory/blob/master/LICENSE.txt
+###
+
 window.plugins.factory =
   emit: (div, item) ->
     div.append '<p>Double-Click to Edit<br>Drop Text or Image to Insert</p>'
