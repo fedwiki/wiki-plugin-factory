@@ -109,12 +109,12 @@ window.plugins.factory =
       if (dt = dropEvent.originalEvent.dataTransfer)?
         if dt.types? and ('text/uri-list' in dt.types or 'text/x-moz-url' in dt.types) and not ('Files' in dt.types)
           url = dt.getData 'URL'
-          if found = url.match /^http:\/\/([a-zA-Z0-9:.-]+)(\/([a-zA-Z0-9:.-]+)\/([a-z0-9-]+(_rev\d+)?))+$/
+          if found = url.match /^https?:\/\/([a-zA-Z0-9:.-]+)(\/([a-zA-Z0-9:.-]+)\/([a-z0-9-]+(_rev\d+)?))+$/
             wiki.log 'factory drop url', found
             [ignore, origin, ignore, item.site, item.slug, ignore] = found
             if $.inArray(item.site,['view','local','origin']) >= 0
               item.site = origin
-            $.getJSON "http://#{item.site}/#{item.slug}.json", (remote) ->
+            $.getJSON "//#{item.site}/#{item.slug}.json", (remote) ->
               wiki.log 'factory remote', remote
               item.type = 'reference'
               item.title = remote.title || item.slug
