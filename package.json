@@ -13,23 +13,18 @@
     "url": "http://ward.fed.wiki.org"
   },
   "contributors": [
-    {
-      "name": "Nick Niemeir",
-      "email": "nick.niemeir@gmail.com",
-      "url": "http://nrn.io"
-    },
-    {
-      "name": "Paul Rodwell",
-      "email": "paul.rodwell@btinternet.com",
-      "url": "http://wiki-paul90.rhcloud.com"
-    }
+    "Ward Cunningham <ward@c2.com>",
+    "Nick Niemeir <nick.niemeir@gmail.com>",
+    "Ryan Bennett <nomad.ry@gmail.com>",
+    "Paul Rodwell <paul.rodwell@btinternet.com>",
+    "judell <jon@jonudell.info>"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "update-authors": "node scripts/update-authors.cjs"
   },
   "devDependencies": {
-    "grunt": "^1.0.1",
-    "grunt-git-authors": "^3.2.0"
+    "grunt-git-authors": "3.2.0"
   },
   "license": "MIT",
   "repository": {
@@ -39,7 +34,8 @@
   "bugs": {
     "url": "https://github.com/fedwiki/wiki-plugin-factory/issues"
   },
+  "type": "module",
   "engines": {
-    "node": ">=0.10"
+    "node": ">=0.18"
   }
 }

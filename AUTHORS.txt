@@ -1,7 +1,7 @@
 Authors ordered by first contribution
 
-Ward Cunningham <ward@c2.com>
-Nick Niemeir <nick.niemeir@gmail.com>
 Ryan Bennett <nomad.ry@gmail.com>
+Nick Niemeir <nick.niemeir@gmail.com>
+Ward Cunningham <ward@c2.com>
 Paul Rodwell <paul.rodwell@btinternet.com>
 judell <jon@jonudell.info>
